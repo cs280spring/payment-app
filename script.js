@@ -17,5 +17,15 @@ function handleFormSubmit(event) {
     return;
   }
 
+  const cnumber = document.getElementById("cnumber").value;
+  if (!isValid(cnumber)) {
+    window.alert("Invalid card number!");
+    return;
+  }
+
   window.alert("Thanks for the payment!");
+}
+
+function isValid(cnumber) {
+  return true;
 }
