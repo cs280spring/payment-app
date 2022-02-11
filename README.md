@@ -8,7 +8,7 @@ A simple payment form with validation.
 Clone this repository and open the `index.html` in your favorite browser!
 
 ```text
-git clone https://github.com/cs280fa21/payment-app
+git clone https://github.com/cs280spring/payment-app
 cd payment-app
 open -a "Google Chrome" index.html # works on macOS
 ```
